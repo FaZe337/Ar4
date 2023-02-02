@@ -1,4 +1,4 @@
- IN_ATTACK                        0x0000  /* XK_Shift_L */
+ IN_ATTACK                        0xff20  /* XK_Shift_Le */
 
  XK_BackSpace                     0xff08  /* Back space, back char */
  XK_Tab                           0xff09
