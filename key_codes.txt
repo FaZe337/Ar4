@@ -1,4 +1,4 @@
- IN_ATTACK                        0xff20  /* XK_Shift_Le */
+ IN_ATTACK                        0x0000  /* Activate when player is shooting/punching
 
  XK_BackSpace                     0xff08  /* Back space, back char */
  XK_Tab                           0xff09
@@ -15,7 +15,7 @@
 
 /* International & multi-key character composition */
 
- XK_Multi_key                     0xff20  /* XK_Shift_Le */
+ XK_Multi_key                     0xff20  /* Multi-key character compose */
  XK_Codeinput                     0xff37
  XK_SingleCandidate               0xff3c
  XK_MultipleCandidate             0xff3d
