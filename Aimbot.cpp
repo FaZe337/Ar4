@@ -206,7 +206,7 @@ public:
                 continue;
             if (player->getTeamNumber() == m_localPlayer->getTeamNumber())
                 continue;
-            if (!player->m_lastVisibleTime())
+            if (!player->isVisible())
                 continue;
             double desiredViewAngleYaw = calculateDesiredYaw(m_localPlayer->getLocationX(),
                                                              m_localPlayer->getLocationY(),
