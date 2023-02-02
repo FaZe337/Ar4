@@ -15,7 +15,7 @@
 
 /* International & multi-key character composition */
 
- XK_Multi_key                     0xff20  /* Multi-key character compose */
+ XK_Multi_key                     0xff20  /* XK_Shift_Le */
  XK_Codeinput                     0xff37
  XK_SingleCandidate               0xff3c
  XK_MultipleCandidate             0xff3d
